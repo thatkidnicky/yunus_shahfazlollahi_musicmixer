@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 353.8 342.4" style="enable-background:new 0 0 353.8 342.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F37E80;}
+	.st1{fill:#FAC6C7;}
+	.st2{fill:#A3D17C;}
+	.st3{fill:#91CA6B;}
+</style>
+<g id="cherry_red">
+	<circle class="st0" cx="85.9" cy="264" r="70.9"/>
+	<circle class="st0" cx="237.1" cy="264" r="70.9"/>
+</g>
+<g id="light_spot">
+	<circle class="st1" cx="105.9" cy="232.1" r="23.1"/>
+	<circle class="st1" cx="259.3" cy="232.1" r="23.1"/>
+</g>
+<g id="stem">
+	<path class="st2" d="M123,203.7c87.3-77.2,67.3-184.6,67.3-184.6l13.6,4.2c0,0,19,110.5-69.5,189"/>
+	<path class="st2" d="M204,23.4c0,0,52.7,75,26,170.1c0,0,7.7-0.9,16.5,0.2c0,0,20.2-102.9-26.8-170.4h-15"/>
+</g>
+<g id="leafs">
+	<path class="st3" d="M65.5,49.9c0,0,99.9-59.8,140.2-24.7C205.7,25.3,182.6,90.3,65.5,49.9z"/>
+	<path class="st3" d="M343.3,27.5c0,0-108-43.4-142.3-2.4C201,25.1,233.9,85.7,343.3,27.5z"/>
+</g>
+</svg>
