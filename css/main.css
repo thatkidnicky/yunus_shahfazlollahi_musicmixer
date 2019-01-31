@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*CSS document*/
+
+.hidden
+{
+	display: none;
+}
+
+.container
+{
+	background-color: #d5a0e5;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+#joozeImg
+{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #d5a0e5;
+}
+
+.svg
+{
+	margin-top: 30px; 
+	margin-bottom: 50px;
+	margin-left: 690px;
+
+}
+
+.svg2
+{
+	display: block;
+	margin-left: 690px;
+}

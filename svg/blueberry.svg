@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="blueberry" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 179.3 141.7" style="enable-background:new 0 0 179.3 141.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#7F98CE;}
 	.st1{fill:#9FB4D8;}
+
+	#blueberry:hover .st0{ fill: #a4bff9; }
+	#blueberry:hover .st1{ fill: #c2d7f9; }
+
 </style>
 <g id="blueberry1">
 	<path class="st0" d="M29.6,27.5c0,0-44.5,42-11.1,81.4c5.8,6.8,13,12.2,21,16.1c17.9,8.8,57.5,22.9,97.2,1.4
