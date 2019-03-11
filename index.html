@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>CSS3 Menu</title>
+		<title>Drag and Drop Music Mixer</title>
 		<!-- link to reset first -->
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
@@ -10,24 +10,27 @@
 	<body>
 		<div class="container">
 		<section id="joozeImg">
+			<h1>Java Jooze Muisc Mixer</h1>
 			<img src="images/joose.png" width="500" height="700" alt="Jooze Man">
+			<div id="div2"></div>
 		</section>
 
-		<div class="svg">
-			<object data="svg/applegreen.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/apple.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/banana.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/blueberry.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/cherry.svg" height="100" width="100" type="image/svg+xml"></object>
+
+		
+			<div class="div1">
+  				<img data-musicref="808" src="svg/kiwi.svg" draggable="true" id="drag1" width="50" height="50">
+  				<img src="svg/orange.svg" draggable="true" id="drag2" width="50" height="50">
+   				<img src="svg/banana.svg" draggable="true"  id="drag3" width="50" height="50">
+  				<img src="svg/blueberry.svg" draggable="true" id="drag4" width="50" height="50">
+  				<img src="svg/cherry.svg" draggable="true" id="drag5" width="50" height="50">
+  				<img src="svg/pear.svg" draggable="true" id="drag6" width="50" height="50">
+  				<img src="svg/strawberry.svg" draggable="true" id="drag7" width="50" height="50">
+  				<img src="svg/watermelon.svg" draggable="true" id="drag8" width="50" height="50">
+  				<img src="svg/apple.svg" draggable="true" id="drag9" width="50" height="50">
+  				<img src="svg/applegreen.svg" draggable="true" id="drag10" width="50" height="50">
+			</div>
 		</div>
-		<div class="svg2">
-			<object data="svg/kiwi.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/orange.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/pear.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/strawberry.svg" height="100" width="100" type="image/svg+xml"></object>
-			<object data="svg/watermelon.svg" height="100" width="100" type="image/svg+xml"></object>
-		</div>
-		</div>
+		<audio data-musicref="808" src="audio/808.wav" loop></audio>
 		<script src="js/main.js"></script>
 	</body>
 </html>

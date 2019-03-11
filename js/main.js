@@ -1,24 +1,69 @@
-//create a pickel jar, label it has a firstName, put a string in it
-//var firstName = "Brisk";
-
-//alert("Hello " + firstName);
-
-//modern js
-
-//alert(`Hello ${firstName} !!!`);
-
-//console.log(firstName);
-
-console.log("Javascript is linked up");
 
 (() => {
-  // self invoking anonymous function (or Lambda)
-  // var => means create a variable
-  // whatever comes after the = is what the variable reads
-  var images = document.querySelectorAll('img');
-  //document is always the webpage
-  // after the dot is alway a method or a property
 
-  console.log(images);
+  console.log("Javascript is linked up");
+
+  let images = document.querySelectorAll('img');
+  let dropZone = document.querySelector('#div2');
+  let dropImg = document.querySelector('.div1');
+  let audios = document.querySelectorAll('audio');
+
+  function resetAudio() {
+    audios.forEach(audio => {
+      audio.currentTime = 0;
+    });
+  }
+
+  function initDrag() {
+    images.forEach(image => {
+      image.addEventListener("dragstart", function(e) {
+        console.log("dragging");
+
+        e.dataTransfer.setData("text/plain", this.id);
+      });
+    });
+  }
+
+  images.forEach(image => {
+    initDrag();
+  });
+
+  dropZone.addEventListener("dragover", function(e) {
+    e.preventDefault();
+    console.log("dragging");
+  })
+
+  dropZone.addEventListener("drop", function(e) {
+    e.preventDefault();
+    console.log("dropped");
+
+    let icon = e.dataTransfer.getData("text/plain");
+
+    e.target.appendChild(document.querySelector(`#${icon}`));
+
+    resetAudio();
+
+    audios.forEach(audio => {
+      if (audio.dataset.musicref == document.querySelector(`#${icon}`).dataset.musicref) {
+        audio.play();
+      }
+    });
+
+  });
+
+  dropZone.addEventListener('click', function(e) {
+    console.log('click me');
+    let reset = e.target;
+    dropZone.removeChild(reset);
+
+    audios.forEach(audio => {
+      if (audio.dataset.musicref == reset.dataset.musicref) {
+        audio.pause();
+      }
+    });
+
+    dropImg.appendChild(reset);
+  });
+
 
 })();
