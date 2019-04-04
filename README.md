@@ -7,3 +7,5 @@ Fruit Icons can be returned by dragging them off the table.
 Each fruit icon will have a different hip-hop inspired sound to create a bumping smoothie.
 
 Play around with the different combinations and see what you can create!
+
+This branch contains 10 fruit SVG icons.
