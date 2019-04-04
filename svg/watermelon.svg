@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="watermelon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 302.5 249.9" style="enable-background:new 0 0 302.5 249.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#99D09A;}
@@ -8,6 +8,13 @@
 	.st2{fill:#373A38;}
 	.st3{fill:#FBDCE9;}
 	.st4{fill:#D0E7C3;}
+
+	#watermelon:hover .st0{ fill: #c2f9c3; }
+	#watermelon:hover .st1{ fill: #fcbfd6; }
+	#watermelon:hover .st2{ fill: #6b706d; }
+	#watermelon:hover .st3{ fill: #f4ebef; }
+	#watermelon:hover .st4{ fill: #ecfce3; }
+
 </style>
 <g id="watermelon_green">
 	<path class="st0" d="M7.2,87.2c0,0,13.5,166.2,146.8,157.3c0,0,181.2-2.3,131.9-209.4"/>

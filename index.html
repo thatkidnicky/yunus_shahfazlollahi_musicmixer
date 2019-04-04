@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Drag and Drop Music Mixer</title>
+		<!-- link to reset first -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Java Jooze Music Mixer</h1>
+			<h2>Brisk Yunus and Nick Shahfazlollahi</h2>
+			<h2>How To Play!</h2>
+			<li>Drag and drop each fruit onto the table above</li>
+			<li>Create different kinds of fire beats with each fruit having unique sounds</li>
+			<li>Some fruits have different pitched loops, so mess around with pitching!</li>
+			<li>To remove the fruit from the table simple CLICK on it to bring it back to the box below</li>
+		<section id="joozeImg">
+			<img src="images/joose.png" width="500" height="700" alt="Jooze Man">
+			<div id="div2"></div>
+		</section>
+
+
+		
+			<div class="div1">
+  				<img data-musicref="808" src="svg/kiwi.svg" draggable="true" id="drag1" width="50" height="50">
+  				<img data-musicref="drum" src="svg/orange.svg" draggable="true" id="drag2" width="50" height="50">
+   				<img data-musicref="guitar" src="svg/banana.svg" draggable="true"  id="drag3" width="50" height="50">
+  				<img data-musicref="kick" src="svg/blueberry.svg" draggable="true" id="drag4" width="50" height="50">
+  				<img data-musicref="metro1" src="svg/cherry.svg" draggable="true" id="drag5" width="50" height="50">
+  				<img data-musicref="metro2" src="svg/pear.svg" draggable="true" id="drag6" width="50" height="50">
+  				<img data-musicref="snares" src="svg/strawberry.svg" draggable="true" id="drag7" width="50" height="50">
+  				<img data-musicref="clap" src="svg/watermelon.svg" draggable="true" id="drag8" width="50" height="50">
+  				<img data-musicref="guitar2" src="svg/apple.svg" draggable="true" id="drag9" width="50" height="50">
+  				<img data-musicref="snares2" src="svg/applegreen.svg" draggable="true" id="drag10" width="50" height="50">
+			</div>
+		</div>
+		<audio data-musicref="808" src="audio/808.wav" loop></audio>
+		<audio data-musicref="drum" src="audio/drum.wav" loop></audio>
+		<audio data-musicref="guitar" src="audio/guitar.wav" loop></audio>
+		<audio data-musicref="kick" src="audio/kick.wav" loop></audio>
+		<audio data-musicref="metro1" src="audio/metro1.wav" loop></audio>
+		<audio data-musicref="metro2" src="audio/metro2.wav" loop></audio>
+		<audio data-musicref="snares" src="audio/snares.wav" loop></audio>
+		<audio data-musicref="clap" src="audio/clap.wav" loop></audio>
+		<audio data-musicref="snares2" src="audio/snares2.wav" loop></audio>
+		<audio data-musicref="guitar2" src="audio/guitar2.wav" loop></audio>
+		<script src="js/main.js"></script>
+	</body>
+</html>
